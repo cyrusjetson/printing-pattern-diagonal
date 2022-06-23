@@ -4,9 +4,9 @@ using namespace std;
 
 int main(){
 		
-	int r;
+        int r;
 	
-    cout << "Enter string: ";
+        cout << "Enter string: ";
 	string sample;    
 	cin >> sample;
 	int strlen = sample.length();
@@ -27,7 +27,7 @@ int main(){
 		cout<< "\n";
 	}
 	
-    int tem3 = strlen / 2;
+        int tem3 = strlen / 2;
 	r = temp2 / 2;
 	for(int i = r, j = r; i >= 0, j <= 2*r; i--,j++){
 	     int temp =0;
